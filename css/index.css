@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-title-picture {
+    display: flex;
+    justify-content: space-around;
+}
+
+.martin {
+    width: 50%;
+}
+
+.background-title {
+    background-color: black;
+    width: 50%;
+}
+
+
+.date-lifestyle {
+    display: flex;
+    justify-content: space-around;
+    margin: 95px auto;
+}
+.date {
+    width: 136px;
+    height: 21px;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 7px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.lifestyle {
+    width: 75px;
+    height: 24px;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 7px;
+    font-family: 'Kanit', sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+    .martin {
+        width: 100%;
+    }
+}
